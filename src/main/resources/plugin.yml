@@ -1,0 +1,14 @@
+name: SlimyCrack
+main: pl.dans.plugins.sc.SlimyCrack
+version: 1.0
+  
+commands:
+  scstart:
+    description: Basic commands for SlimyCrack
+    usage: /<command> <withd> <length> <worldName> <speed>
+    permission: SlimyCrack.basic
+    permission-message: You don't have <permission>
+permissions:
+  SlimyCrack.basic:
+    description: Allows use of the commands in the plugin
+    default: op
